@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-400 to-white flex justify-center items-center min-h-screen">
+
+
+    
+
+    <div class="flex flex-col">
+
+        <div>
+            <h1 class="mb-4 text-center text-8xl font-bold text-transparent bg-gradient-to-r from-blue-900 to-red-400 bg-clip-text">Countdown</h1>
+        </div>
+
+        <div class="text-3xl bg-white rounded-lg p-4 shadow-md">
+            <div class="buttons flex justify-center gap-4">
+                <button class="startBtn px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Start</button>
+                <button class="stopBtn px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Stop</button>
+                <button class="restartBtn px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Restart</button>
+                <button class="clearBtn px-4 py-2 bg-yellow-500 text-white rounded-md hover:bg-yellow-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Clear</button>
+            </div>
+    
+            <div class="countdown px-40 py-14 text-9xl">
+                25:00
+            </div>
+    
+            <div class="setTime flex justify-center gap-4">
+                <button class="increaseBtn px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Increase</button>
+                <button class="decreaseBtn px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 hover:text-white focus:outline-none transition duration-300 ease-in-out transform hover:scale-105">Decrease</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
