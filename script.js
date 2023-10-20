@@ -26,7 +26,7 @@ function startTimer(){
                
             if(minutes === 0 && seconds === 0 ) {
                 clearInterval(timer) ; 
-                alert('Your Time Has Ended');
+                countdownDisplay.textContent = 'Times Up' ;
                 timer = false ; 
                }
             
